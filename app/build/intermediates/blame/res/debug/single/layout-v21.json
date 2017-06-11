@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/hossam/AndroidStudioProjects/HossamRaya7Challenge/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/hossam/.android/build-cache/1a2ff683de6eae88fff1a359ca359eddd2ab6839/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/hossam/AndroidStudioProjects/HossamRaya7Challenge/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/hossam/.android/build-cache/1a2ff683de6eae88fff1a359ca359eddd2ab6839/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/hossam/AndroidStudioProjects/HossamRaya7Challenge/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/hossam/.android/build-cache/1a2ff683de6eae88fff1a359ca359eddd2ab6839/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/hossam/AndroidStudioProjects/HossamRaya7Challenge/app/build/intermediates/res/merged/debug/layout-v21/place_autocomplete_fragment.xml",
+        "source": "/home/hossam/.android/build-cache/a7a074165b8bdbbcc72eb30914d78dc2869c1f31/output/res/layout-v21/place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "/home/hossam/AndroidStudioProjects/HossamRaya7Challenge/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/hossam/.android/build-cache/1a2ff683de6eae88fff1a359ca359eddd2ab6839/output/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/hossam/AndroidStudioProjects/HossamRaya7Challenge/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/home/hossam/.android/build-cache/1a2ff683de6eae88fff1a359ca359eddd2ab6839/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/home/hossam/AndroidStudioProjects/HossamRaya7Challenge/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/home/hossam/.android/build-cache/1a2ff683de6eae88fff1a359ca359eddd2ab6839/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/home/hossam/AndroidStudioProjects/HossamRaya7Challenge/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/home/hossam/.android/build-cache/1a2ff683de6eae88fff1a359ca359eddd2ab6839/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/hossam/AndroidStudioProjects/HossamRaya7Challenge/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/home/hossam/.android/build-cache/1a2ff683de6eae88fff1a359ca359eddd2ab6839/output/res/drawable-v21/abc_btn_colored_material.xml"
+    }
+]

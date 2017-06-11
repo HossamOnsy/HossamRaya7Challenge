@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/hossam/AndroidStudioProjects/HossamRaya7Challenge/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/hossam/.android/build-cache/1a2ff683de6eae88fff1a359ca359eddd2ab6839/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/hossam/AndroidStudioProjects/HossamRaya7Challenge/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/hossam/.android/build-cache/1a2ff683de6eae88fff1a359ca359eddd2ab6839/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

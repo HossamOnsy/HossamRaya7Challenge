@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/hossam/AndroidStudioProjects/HossamRaya7Challenge/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/home/hossam/.android/build-cache/1a2ff683de6eae88fff1a359ca359eddd2ab6839/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/home/hossam/AndroidStudioProjects/HossamRaya7Challenge/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/home/hossam/.android/build-cache/1a2ff683de6eae88fff1a359ca359eddd2ab6839/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/home/hossam/AndroidStudioProjects/HossamRaya7Challenge/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/home/hossam/.android/build-cache/1a2ff683de6eae88fff1a359ca359eddd2ab6839/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/home/hossam/AndroidStudioProjects/HossamRaya7Challenge/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/home/hossam/.android/build-cache/1a2ff683de6eae88fff1a359ca359eddd2ab6839/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/home/hossam/AndroidStudioProjects/HossamRaya7Challenge/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/home/hossam/.android/build-cache/1a2ff683de6eae88fff1a359ca359eddd2ab6839/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/home/hossam/AndroidStudioProjects/HossamRaya7Challenge/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/home/hossam/.android/build-cache/1a2ff683de6eae88fff1a359ca359eddd2ab6839/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/home/hossam/AndroidStudioProjects/HossamRaya7Challenge/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/home/hossam/.android/build-cache/1a2ff683de6eae88fff1a359ca359eddd2ab6839/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/home/hossam/AndroidStudioProjects/HossamRaya7Challenge/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/home/hossam/.android/build-cache/1a2ff683de6eae88fff1a359ca359eddd2ab6839/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/home/hossam/AndroidStudioProjects/HossamRaya7Challenge/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/home/hossam/.android/build-cache/1a2ff683de6eae88fff1a359ca359eddd2ab6839/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/home/hossam/AndroidStudioProjects/HossamRaya7Challenge/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/home/hossam/.android/build-cache/1a2ff683de6eae88fff1a359ca359eddd2ab6839/output/res/anim/abc_slide_in_bottom.xml"
+    }
+]
