@@ -9,6 +9,7 @@ import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
+import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
 import android.location.Location;
 import android.location.LocationListener;
@@ -16,10 +17,12 @@ import android.location.LocationManager;
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
+import android.support.v4.content.ContextCompat;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.example.hossam.hossamraya7challenge.Models.Route;
@@ -59,7 +62,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     View imageView2Search;
     View imageViewX;
     View imageView2X;
-
+    ProgressBar progressBar;
     String backupCurrent = " ";
     String backupDestination = " ";
     EditText editTextD;
@@ -92,6 +95,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         routePolylines = new HashMap<>();
         showMeThePathButton = (Button) findViewById(R.id.ShowMeThePathButton);
         useMyLocationButton = (Button) findViewById(R.id.TakeMyCar);
+        progressBar= (ProgressBar) findViewById(R.id.MapProgressBar);
+        progressBar.getIndeterminateDrawable()
+                .setColorFilter(ContextCompat.getColor(this, R.color.colorGreen), PorterDuff.Mode.SRC_IN );
         sLatLng = new LatLng(29.9285429, 30.9187827);
         dLatLng = new LatLng(0, 0);
         mPerthMarker = null;
@@ -216,6 +222,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             return;
         }
         try {
+            progressBar.setVisibility(View.VISIBLE);
             new JSONParser(this, currentLocation, desiredLocation).execute();
         } catch (Exception e) {
             e.printStackTrace();
@@ -226,6 +233,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
+        progressBar.setVisibility(View.VISIBLE);
 
         LocationManager locationManager = (LocationManager)
                 getSystemService(Context.LOCATION_SERVICE);
@@ -318,7 +326,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             // for ActivityCompat#requestPermissions for more details.
             return;
         }
-        mMap.setMyLocationEnabled(true);
+        mMap.setTrafficEnabled(true);
+        mMap.setMyLocationEnabled(true);;
+        progressBar.setVisibility(View.INVISIBLE);
     }
     public Bitmap resizeMapIcons(String iconName, int width, int height) {
         Bitmap imageBitmap = BitmapFactory.decodeResource(getResources(), getResources().getIdentifier(iconName, "drawable", getPackageName()));
@@ -381,6 +391,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             routePolylines.put(polylinePaths.get(j), routes);
             j++;
         }
+        progressBar.setVisibility(View.INVISIBLE);
     }
 
     @Override

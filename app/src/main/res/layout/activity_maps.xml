@@ -63,6 +63,9 @@
         android:layout_gravity="center"
         android:layout_marginBottom="5dp"
         />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
     <fragment
         android:id="@+id/map"
@@ -84,6 +87,15 @@
 
 
     </fragment>
-
+        <ProgressBar
+            android:id="@+id/MapProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminateTint="#99FF99"
+            android:visibility="gone"
+            >
+        </ProgressBar>
+    </RelativeLayout>
 
 </LinearLayout>

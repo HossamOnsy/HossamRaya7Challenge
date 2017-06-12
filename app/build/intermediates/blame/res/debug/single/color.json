@@ -80,12 +80,12 @@
         "source": "/home/hossam/.android/build-cache/1a2ff683de6eae88fff1a359ca359eddd2ab6839/output/res/color/abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "/home/hossam/AndroidStudioProjects/HossamRaya7Challenge/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
-        "source": "/home/hossam/.android/build-cache/facf997efbd42fed41cb062a6a7652f7e2c9cccb/output/res/color/common_google_signin_btn_text_dark.xml"
-    },
-    {
         "merged": "/home/hossam/AndroidStudioProjects/HossamRaya7Challenge/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
         "source": "/home/hossam/.android/build-cache/1a2ff683de6eae88fff1a359ca359eddd2ab6839/output/res/color/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/hossam/AndroidStudioProjects/HossamRaya7Challenge/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/home/hossam/.android/build-cache/facf997efbd42fed41cb062a6a7652f7e2c9cccb/output/res/color/common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "/home/hossam/AndroidStudioProjects/HossamRaya7Challenge/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
