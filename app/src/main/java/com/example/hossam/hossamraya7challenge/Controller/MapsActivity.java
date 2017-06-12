@@ -135,7 +135,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         imageView2Search = (View) viewD.findViewById(R.id.place_autocomplete_search_button);
         imageView2X = (View) viewS.findViewById(R.id.place_autocomplete_clear_button);
 
-
+        //Shaklyat == For Appearance Purposes
         editTextS.setHint("Enter Your Starting Point");
         editTextD.setHint("Enter Your Destination Point");
         editTextS.setBackgroundColor(0xffffffff);
